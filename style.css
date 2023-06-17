@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(45deg, #4250c0, #FFEEEE);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .converter {
+    margin: 50px auto;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .converter h2 {
+    margin-top: 0;
+    color: #333;
+  }
+
+  .converter label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+  }
+
+  .converter input[type="number"] {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    margin-left: -7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .converter select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #convert {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #4250c0, #591170);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .converter #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .exchange-rates {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .exchange-rate {
+    display: inline-block;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+
+  .exchange-rate span {
+    font-weight: bold;
+  }
+
+  .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  }
+  
+  .footer h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
