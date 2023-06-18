@@ -1,3 +1,4 @@
+
 const inputAmount = document.querySelector("#amount");
 const selectCurrency = document.querySelector("#currency");
 const resoltConvert = document.querySelector("#convert");
